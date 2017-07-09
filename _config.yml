@@ -35,3 +35,11 @@ exclude:
 
 collections:
   - grants
+
+
+# Site information
+
+description:      'List of openly available grants to help scientists and researchers'
+url:              https://ogrants.org
+github:
+  repo:           https://github.com/weecology/opengrants
