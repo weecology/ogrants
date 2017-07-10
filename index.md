@@ -14,13 +14,17 @@ help you find them.
 	<th>Year</th>
 	<th>Funder</th>
 	<th>Title</th>
-	<th>Author</th>
+	<th>Funded</th>
   </tr>
 {% for grant in site.grants %}
   <tr>
     <td>{{ grant.year }}</td>
 	<td>{{ grant.funder }}</td>
-	<td><a href="{{ grant.link }}">{{ grant.title }}</a></td>
-    <td>{{ grant.author }}</td>
+	<td><a href="{{ grant.link }}">{{ grant.title }}</a> <small> by {{ grant.author }}</small></td>
+	{% if grant.status == 'funded' %}
+	  <td>Yes</td>
+	{% else %}
+	  <td>No</td>
+	{% endif %}
   </tr>
 {% endfor %}
