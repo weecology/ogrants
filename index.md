@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 An increasing number of researchers are sharing their grant proposals

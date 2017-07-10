@@ -35,7 +35,6 @@ collections:
 # Site information
 
 title:            'Open Grants'
-description:      'List of openly available grants to help scientists and researchers'
 url:              https://ogrants.org
 github:
-  repo:           https://github.com/weecology/opengrants
+  repo:           https://github.com/weecology/ogrants
