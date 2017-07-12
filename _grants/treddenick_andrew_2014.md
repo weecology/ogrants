@@ -5,6 +5,6 @@ author: Andrew Tredennick
 year: 2014
 link: https://doi.org/10.6084/m9.figshare.4981529.v1
 funder: NSF
-program: Postdoctoral Fellowships in Biology
+program: Postdoctoral Fellowship in Biology
 status: funded
 ---
