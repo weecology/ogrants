@@ -23,8 +23,10 @@ help you find them.
 	<td><a href="{{ grant.link }}">{{ grant.title }}</a> <small> by {{ grant.author }}</small></td>
 	{% if grant.status == 'funded' %}
 	  <td>Yes</td>
-	{% else %}
+	{% elsif grant.status == 'unfunded' %}
 	  <td>No</td>
+	{% else %}
+	  <td>?</td>
 	{% endif %}
   </tr>
 {% endfor %}
