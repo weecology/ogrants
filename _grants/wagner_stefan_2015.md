@@ -6,5 +6,5 @@ year: 2015
 link: https://doi.org/10.3897/rio.2.e10610
 funder: DFG
 program: 
-status: ?
+status:
 ---
