@@ -4,7 +4,7 @@ title: 'Studying the effect of Ruthenium on High Temperature Mechanical Properti
 author: Sriswaroop Dasari
 year: 2016
 link: https://doi.org/10.3897/rio.2.e10714
-funder: ?
-program: ?
+funder:
+program:
 status: unfunded
 ---

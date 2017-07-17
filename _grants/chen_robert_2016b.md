@@ -6,5 +6,5 @@ year: 2016
 link: https://doi.org/10.3897/rio.2.e9268
 funder: Tzuchi University College of Medicine
 program: PhD Project proposal
-status: ?
+status:
 ---
