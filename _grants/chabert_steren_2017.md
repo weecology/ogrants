@@ -6,5 +6,5 @@ year: 2017
 link: https://doi.org/10.3897/rio.3.e11731
 funder: Fondo Nacional de Desarrollo Científico y Tecnológico (FONDECYT)
 program: Postdoctoral Grant
-status: ?
+status:
 ---
