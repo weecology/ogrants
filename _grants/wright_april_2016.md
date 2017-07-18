@@ -1,6 +1,6 @@
 ---
 layout: grant
-title: Fossilized Birth-Death Dating in FormicidaeS
+title: Fossilized Birth-Death Dating in Formicidae
 author: April M. Wright
 ORCID: 0000-0003-4692-3225
 year: 2016
