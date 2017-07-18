@@ -1,6 +1,6 @@
 ---
 layout: grant
-title: Timing is everything: Identifying peak Rallidae call rate in southeast Australia
+title: 'Timing is everything: Identifying peak Rallidae call rate in southeast Australia'
 author: Auriel M.V. Fournier
 ORCID: 0000-0002-8530-9968
 year: 2015
