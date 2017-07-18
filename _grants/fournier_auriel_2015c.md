@@ -8,5 +8,5 @@ link: https://doi.org/10.6084/m9.figshare.5216020.v1
 funder:  NSF
 program: EAPSI
 discipline: ecology
-status: not funded
+status: unfunded
 ---
