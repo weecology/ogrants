@@ -8,5 +8,5 @@ link: https://doi.org/10.6084/m9.figshare.5216005.v1
 funder: Eastern Bird Banding Assocation
 program: Student Research Grant
 discipline: Ecology
-status: not funded
+status: unfunded
 ---
