@@ -31,7 +31,7 @@ these proposals to help you find them.
 	<td><a href="{{ grant.link }}">{{ grant.title }}</a> <small> by {{ grant.author }}</small></td>
 	{% if grant.status == 'funded' or grant.status == 'partially funded' %}
 	  <td>Yes</td>
-	{% elsif grant.status == 'unfunded' %}
+	{% elsif grant.status == 'unfunded' or grant.status == 'not funded' %}
 	  <td>No</td>
 	{% else %}
 	  <td>?</td>
