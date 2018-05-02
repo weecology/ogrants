@@ -4,7 +4,7 @@ title: 'Gene Wiki: A community-maintained knowledge base of biomedical informati
 author: Andrew Su
 ORCID: 0000-0002-9859-4104
 year: 2017
-link: https://drive.google.com/file/d/0B1IkrTxJmBejTFBtLUJvamg1WlU/view
+link: https://doi.org/10.6084/m9.figshare.6211181.v3
 funder: NIH
 program: R01
 status: funded
