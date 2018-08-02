@@ -1,6 +1,6 @@
 ---
 layout: grant
-title: Microbiome and stress: examining host-microbe responses in ascidians following acute low salinity exposure
+title: "Microbiome and stress: examining host-microbe responses in ascidians following acute low salinity exposure"
 author: Lisa K. Johnson
 ORCID: 0000-0002-3600-7218
 year: 2016
