@@ -8,7 +8,7 @@ link: https://doi.org/10.6084/m9.figshare.6913616.v1
 funder: NSF
 program: Graduate Research Fellowship Program
 discipline: Life Sciences - Environmental Biology
-status: not funded, honorable mention
+status: not funded - honorable mention
 twitter: monsterbashseq
 institution: UC Davis
 ---
