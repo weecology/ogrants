@@ -9,6 +9,4 @@ funder: NSF
 program: Graduate Research Fellowship Program
 discipline: Life Sciences - Environmental Biology
 status: not funded - honorable mention
-twitter: monsterbashseq
-institution: UC Davis
 ---
