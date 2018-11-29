@@ -1,0 +1,14 @@
+<footer>
+    <!-- Load and initialize DataTables -->
+    <link rel="stylesheet" type="text/css" href="/public/jquery.dataTables.min.css">
+    <script src="/public/jquery-3.3.1.min.js"></script>
+    <script src="/public/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready( function () {
+            $('#main_table').DataTable({
+                "pageLength": 100
+            });
+        } );
+    </script>
+</footer>
