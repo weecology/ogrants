@@ -1,0 +1,45 @@
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #ac4142;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+
+<form name="Add grant" method="POST" netlify>
+  <input type="text" name="title" placeholder="Grant title" size="50"><br>
+  <input type="text" name="author" placeholder="Author name(s)"><br>
+  <input type = "text" name="institution" placeholder="Institution"><br>
+  <input type="text" name="website" placeholder="Link to your website (optional)"><br>
+  <input type="text" name="twitter" placeholder="Twitter handle (optional)"><br>
+  <input type = "text" name="ORCID" placeholder="ORCID (see https://orcid.org/) (optional)"><br>
+  <input type = "text" name="year" placeholder="Year"><br>
+  <input type="text" name="funder" placeholder="Funder"><br>
+  <input type="text" name="program" placeholder="Program within funder. E.g., CAREER (optional)"><br>
+  <input type="text" name="discipline" placeholder="discipline; e.g., ecology"><br>
+  <input type="text" name="status" placeholder="status: funded, unfunded, or unknown"><br>
+  <input type="text" name="link" placeholder="A url that links to your grant (or you can upload a pdf below)"><br>
+  Upload a pdf of your grant: <input type="file" name="file" accept=".pdf"><br>
+  <button type="submit">Submit</button>
+</form>
