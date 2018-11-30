@@ -3,19 +3,22 @@ layout: page
 title: Add a grant
 ---
 
-Adding a grant to this site requires two (or three) things:
+## Simple
 
-### 1. Post the grant online
+Fill out the form below. You can either post your grant elsewhere (we recommend [Zenodo](https://zenodo.org/)) and provide a
+link to the file or upload a pdf of the grant using the button at the bottom of the form.
 
-This site doesn't host grants, it just provides links to them. We
-recommend [Zenodo](https://zenodo.org/) and [Figshare](https://figshare.com/) as
-good options for posting grants because they are archival and so shouldn't
-result in broken links anytime in the near future.
+{% include add_form.html %}
 
-### 2. Add information about the grant
+## Submit Directly To GitHub
 
+If you're familiar with GitHub you can skip the form and submit a pull request
+to directly add your grant to the site (or open an issue with the necessary
+information).
+
+### Grant information
 Information for each grant is stored as YAML with fields for each key
-piece of information. E.g.,
+piece of information.
 
 ```
 ---
@@ -33,19 +36,18 @@ status: funded
 ```
 
 The items to the right of the `:` on each line should be changed to match the
-grant you want to add. To get this added to the site there are three options:
+grant you want to add.
 
-1. Submit a pull request that adds the above information to a file named
-   `lastname_firstname_year.md` in the `_grants` folder of
-   the [GitHub repository]({{ site.github.repo }}). The `lastname` and
-   `firstname` should be those for the lead PI. In the case of multiple grants
-   by the same PI for the same year append letters in order to the date, e.g.,
-   `white_ethan_2026a.md`.
-2. [Open an issue](https://github.com/weecology/ogrants/issues/new) and paste
-   the filled out YAML into that issue.
-3. [Email us](mailto:ogrants@weecology.org) the information.
+You can submit a pull request that adds the above information to a file named
+`lastname_firstname_year.md` in the `_grants` folder of the [GitHub
+repository]({{ site.github.repo }}). The `lastname` and `firstname` should be
+those for the lead PI. In the case of multiple grants by the same PI for the
+same year append letters in order to the date, e.g., `white_ethan_2026a.md`.
 
-### 3. Add information about the author
+Or just [open an issue](https://github.com/weecology/ogrants/issues/new) and paste
+the filled out YAML into that issue.
+
+### Author information
 
 If you want you can also add information about the author in the form:
 
@@ -59,6 +61,5 @@ twitter: ethanwhite
 ---
 ```
 
-This can be submitted along with the grant information if you're using an issue
-or email. If you're submitting a pull request it should be placed in a file
+This can be submitted along with the grant information if you're using an issue. If you're submitting a pull request it should be placed in a file
 named `lastname_firstname.md` in the `_authors` directory.
