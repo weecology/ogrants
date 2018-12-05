@@ -29,7 +29,8 @@ exclude:
   - Gemfile.lock
 
 collections:
-  - grants
+  grants:
+    output: true
 
 
 # Site information
