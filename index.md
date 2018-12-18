@@ -15,15 +15,17 @@ early career scientists writing grants. This is a list of {{ numgrant }} of
 these proposals to help you find them.
 
 
-{% include sort.html %}
-<table id='sTable'>
+<table id='main_table'>
+  <thead>
   <tr>
-    <th nowrap onclick="sort(0)"> Year <i class="fa fa-sort" aria-hidden="true"></i> </th>
-    <th nowrap onclick="sort(1)"> Funder <i class="fa fa-sort" aria-hidden="true"></i></th>
-    <th nowrap onclick="sort(2)"> Title <i class="fa fa-sort" aria-hidden="true"></i></th>
-    <th nowrap onclick="sort(3)"> Funded <i class="fa fa-sort" aria-hidden="true"></i></th>
+    <th>Year</th>
+    <th>Funder</th>
+    <th>Title</th>
+    <th>Funded</th>
   </tr>
+  </thead>
 
+  <tbody>
 {% for grant in site.grants %}
   <tr>
     <td>{{ grant.year }}</td>
@@ -38,4 +40,7 @@ these proposals to help you find them.
 	{% endif %}
   </tr>
 {% endfor %}
+  </tbody>
 </table>
+
+{% include footer.html %}
