@@ -27,13 +27,18 @@ for grant in grants:
         grant_year = str(grant['year'])
     except:
         grant_year = ''
-        
-    if not link_resolves(grant['link']):
-        print('Grant: ' + str(grant_year) + ' / ' + grant['author'])
-        print('\---------Link Broken---------')
-        print('')
-        broken_link_count+=1
-    else:
-        pass
+    
+    links = grant['link']
+    if isinstance(links, str):
+        links = [links]
+
+    for i, link in enumerate(links):
+        if not link_resolves(link):
+            print('Grant: ' + str(grant_year) + ' / ' + grant['author'] + ' / ' + 'Link: ' + str(i + 1))
+            print('\---------Link Broken---------')
+            print('')
+            broken_link_count+=1
+        else:
+            pass
 
 assert broken_link_count == 0, str(broken_link_count) + ' broken links'

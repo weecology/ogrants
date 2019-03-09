@@ -23,20 +23,22 @@ piece of information.
 ```
 ---
 layout: grant
-title: Moore Investigator in Data Driven Discovery
-author: Ethan P. White
+title: "Moore Investigator in Data Driven Discovery"
+author: "Ethan P. White"
 ORCID: 0000-0001-6728-7745
 year: 2014
-link: https://doi.org/10.6084/m9.figshare.1189330
-funder: Moore Foundation
-program: Data Driven Discovery Investigators
+link: [https://doi.org/10.6084/m9.figshare.1189330]
+link_name: [Proposal]
+funder: "Moore Foundation"
+program: "Data Driven Discovery Investigators"
 discipline: data science
 status: funded
 ---
 ```
 
 The items to the right of the `:` on each line should be changed to match the
-grant you want to add.
+grant you want to add. Items in `[]` can be comma delimited lists to allow
+multiple documents to be included.
 
 You can submit a pull request that adds the above information to a file named
 `lastname_firstname_year.md` in the `_grants` folder of the [GitHub
