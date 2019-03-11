@@ -43,7 +43,7 @@ List all grants by funder
 	 {% for grant in site.grants %}
 		 {% if grant.funder == funder %}
 		 <li>
-		 <a href="{{ grant.link }}">
+		 <a href="{{ grant.url }}">
 		 {{ grant.title }}
 		 </a>
  		 <small>{{ grant.author }}, {{ grant.year }}, <em>{{ grant.status }}</em></small>
