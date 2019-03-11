@@ -54,7 +54,7 @@ List all grants by program
          {% endif %}
 		 {% if myprogram == program %}
 		 <li>
-		 <a href="{{ grant.link }}">
+		 <a href="{{ grant.url }}">
 		 {{ grant.title }}
 		 </a>
  		 <small>{{ grant.author }}, {{ grant.year }}, <em>{{ grant.status }}</em></small>
