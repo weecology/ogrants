@@ -6,7 +6,11 @@ layout: default
     <h3 class="page-title">{{ page.title }}</h3>
   <dl>
       <dt>Author</dt>
-      <dd>{{ page.author }} (<a href="https://orcid.org/{{ page.ORCID }}">ORCID</a>)</dd>
+      {% if page.ORCID == null %}
+        <dd>{{ page.author }}</dd>
+      {% else %}
+	<dd>{{ page.author }} (<a href="https://orcid.org/{{ page.ORCID }}">ORCID</a>)</dd>
+      {% endif %}
   
       <dt>Year</dt>
       <dd>{{ page.year }}</dd>
