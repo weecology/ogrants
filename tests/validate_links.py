@@ -6,9 +6,8 @@ import urllib.request
 def link_resolves(url):
     try:
         request = urllib.request.urlopen(url)
-        request.close()
-        return True
-    except:
+        return request.status < 400
+    except Exception:
         return False
 
 
