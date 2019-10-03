@@ -18,6 +18,8 @@ def load_grant_file(path):
     return grant_info
 
 
+# Read links that should not be automatically validated.
+# These links must be manually checked to see if they resolve.
 skip_links = set(
     pathlib.Path(__file__)
     .parent.joinpath('skip-link-validation.txt')
