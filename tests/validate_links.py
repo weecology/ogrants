@@ -13,10 +13,9 @@ def link_resolves(url):
 
 
 def load_grant_file(path):
-    lines = path.read_text().splitlines()
-    # drop the first and last line. pyyaml doesn't like them
-    lines = lines[1:-1]
-    grant_info = yaml.safe_load(''.join(lines))
+    text = path.read_text()
+    grant_info = yaml.safe_load(text)
+    print(grant_info)
     return grant_info
 
 
