@@ -15,7 +15,6 @@ def link_resolves(url):
 def load_grant_file(path):
     text = path.read_text()
     grant_info = next(yaml.safe_load_all(text))
-    print(grant_info)
     return grant_info
 
 
