@@ -1,4 +1,6 @@
+import os
 import pathlib
+import subprocess
 
 import requests
 import yaml
@@ -18,6 +20,26 @@ def load_grant_file(path):
     return grant_info
 
 
+def get_changed_files():
+    """
+    Return pathlib.Paths for files changed in the last
+    git commit.
+    """
+    args = ['git', 'diff', '--name-only', 'HEAD~1']
+    paths = subprocess.check_output(args, text=True)
+    paths = paths.splitlines()
+    paths = {pathlib.Path(path) for path in paths}
+    return paths
+
+
+def get_grant_paths():
+    paths = set(pathlib.Path('_grants').glob('*.md'))
+    if os.getenv('TRAVIS_EVENT_TYPE') != 'cron':
+        print('Limiting tests only to files changed')
+        paths &= get_changed_files()
+    return sorted(paths)
+
+
 # Read links that should not be automatically validated.
 # These links must be manually checked to see if they resolve.
 skip_links = set(
@@ -26,8 +48,9 @@ skip_links = set(
     .read_text().splitlines()
 )
 
-grant_paths = sorted(pathlib.Path('_grants').glob('*.md'))
-print(f"{len(grant_paths):,} grant paths detected")
+grant_paths = get_grant_paths()
+grant_str = '\n'.join(grant_paths)
+print(f"Testing {len(grant_paths):,} grants:\n{grant_str}")
 broken_link_count = 0
 for path in grant_paths:
     grant = load_grant_file(path)
