@@ -34,7 +34,7 @@ def get_changed_files():
 
 def get_grant_paths():
     paths = set(pathlib.Path('_grants').glob('*.md'))
-    if os.getenv('TRAVIS_EVENT_TYPE') != 'cron':
+    if 'OGRANTS_TEST_ALL' not in os.environ and os.getenv('TRAVIS_EVENT_TYPE') != 'cron':
         print('Limiting tests only to files changed')
         paths &= get_changed_files()
     return sorted(paths)
