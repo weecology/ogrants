@@ -49,7 +49,7 @@ skip_links = set(
 )
 
 grant_paths = get_grant_paths()
-grant_str = '\n'.join(grant_paths)
+grant_str = '\n'.join(f"\t{path}" for path in grant_paths)
 print(f"Testing {len(grant_paths):,} grants:\n{grant_str}")
 broken_link_count = 0
 for path in grant_paths:
