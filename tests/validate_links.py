@@ -1,13 +1,13 @@
 import pathlib
-import urllib.request
 
+import requests
 import yaml
 
 
 def link_resolves(url):
     try:
-        request = urllib.request.urlopen(url)
-        return request.status < 400
+        request = requests.head(url)
+        return request.ok
     except Exception:
         return False
 

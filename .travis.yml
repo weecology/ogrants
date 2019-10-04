@@ -3,7 +3,7 @@ python:
     - "3.7"
 
 install:
-    - pip install pyyaml
+    - pip install pyyaml requests
     
 script:
     - python tests/validate_links.py
