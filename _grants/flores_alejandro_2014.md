@@ -3,7 +3,7 @@ author: Alejandro N. Flores
 ORCID: 0000-0002-7240-9265
 funder: National Science Foundation
 layout: grant
-link: "http://doi.org/10.5281/zenodo.3236624"
+link: "https://doi.org/10.5281/zenodo.3236624"
 program: CAREER
 status: funded
 title: "CAREER: Citizens, Conservation, and Climate: Research and Education for Climate Literacy in Managed Landscapes"
