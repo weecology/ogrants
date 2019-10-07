@@ -1,4 +1,6 @@
-## Open Grants List
+# Open Grants List
+
+[![Travis CI Build Status](https://travis-ci.org/weecology/ogrants.svg?branch=master)](https://travis-ci.org/weecology/ogrants)
 
 The Open Grants List is a list of grants that are openly available on the web.
 These grants can help with learning grantsmanship, understanding particular funders and their programs, and communicating science.
@@ -7,7 +9,7 @@ The main website is <https://www.ogrants.org/>.
 
 This is the Jekyll repository that creates the site.
 
-### Adding a grant
+## Adding a grant
 
 Adding a grant to the list requires two (or three) things:
 
@@ -40,7 +42,8 @@ The items to the right of the `:` on each line should be changed to match the gr
 To get this added to the site there are three options:
 
 1. Submit a pull request that adds the above information to a file named `lastname_firstname_year.md` in the `_grants` folder of the [GitHub repository]({{ site.github.repo }}).
-  The `lastname` and `firstname` should be those for the lead PI. In the case of multiple grants by the same PI for the same year append letters in order to the date, e.g., `white_ethan_2026a.md`.
+  The `lastname` and `firstname` should be those for the lead PI.
+  In the case of multiple grants by the same PI for the same year append letters in order to the date, e.g., `white_ethan_2026a.md`.
 2. [Open an issue](https://github.com/weecology/ogrants/issues/new) and paste the filled out YAML into that issue.
 3. [Email us](mailto:ogrants@weecology.org) the information.
 
@@ -61,6 +64,6 @@ twitter: ethanwhite
 This can be submitted along with the grant information if you're using an issue or email.
 If you're submitting a pull request it should be placed in a file named `lastname_firstname.md` in the `_authors` directory.
 
-### Acknowledgments
+## Acknowledgments
 
 Development of this site is supported by the [Gordon and Betty Moore Foundation](https://www.moore.org/)'s [Data-Driven Discovery Initiation](https://www.moore.org/initiative-strategy-detail?initiativeId=data-driven-discovery) through [Grant GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563) to Ethan White.
