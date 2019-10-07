@@ -3,7 +3,7 @@ author: Martin Karplus
 funder: National Institutes of Health (US)
 layout: grant
 link:
-- https://www.niaid.nih.gov//sites/default/files/1r03ai111416-01_karplus_sample_app.pdf
+- https://www.niaid.nih.gov/sites/default/files/1r03ai111416-01_karplus_sample_app.pdf
 link_name:
 - Proposal
 program: R03

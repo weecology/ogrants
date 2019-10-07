@@ -3,8 +3,8 @@ author: Chad A. Rappleye
 funder: National Institutes of Health (US)
 layout: grant
 link:
-- https://www.niaid.nih.gov//sites/default/files/1r03ai111015-01_rappleye_full.pdf
-- https://www.niaid.nih.gov//sites/default/files/1r03ai111015-01_rappleye_ss.pdf
+- https://www.niaid.nih.gov/sites/default/files/1r03ai111015-01_rappleye_full.pdf
+- https://www.niaid.nih.gov/sites/default/files/1r03ai111015-01_rappleye_ss.pdf
 link_name:
 - Proposal
 - Summary Statement

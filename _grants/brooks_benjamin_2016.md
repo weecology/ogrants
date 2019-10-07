@@ -3,8 +3,8 @@ author: Benjamin Delbert Brooks
 funder: National Institutes of Health (US)
 layout: grant
 link:
-- https://www.niaid.nih.gov//sites/default/files/R43-Brooks-Application.pdf
-- https://www.niaid.nih.gov//sites/default/files/R43-Brooks-Summary-Statement.pdf
+- https://www.niaid.nih.gov/sites/default/files/R43-Brooks-Application.pdf
+- https://www.niaid.nih.gov/sites/default/files/R43-Brooks-Summary-Statement.pdf
 link_name:
 - Proposal
 - Summary Statement
