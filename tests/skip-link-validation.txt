@@ -1,0 +1,2 @@
+# Add URLs below (one per line) for which link validation should be skipped.
+https://eprints.qut.edu.au/98764/
