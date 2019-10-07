@@ -3,8 +3,8 @@ author: Monica Gandhi
 funder: National Institutes of Health (US)
 layout: grant
 link:
-- https://www.niaid.nih.gov//sites/default/files/2-R01-AI098472-06_Gandhi_Application.pdf
-- https://www.niaid.nih.gov//sites/default/files/2-R01-AI098472-06_Ganhdi_Summary.pdf
+- https://www.niaid.nih.gov/sites/default/files/2-R01-AI098472-06_Gandhi_Application.pdf
+- https://www.niaid.nih.gov/sites/default/files/2-R01-AI098472-06_Ganhdi_Summary.pdf
 link_name:
 - Proposal
 - Summary Statement
