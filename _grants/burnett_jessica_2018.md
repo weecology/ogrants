@@ -8,5 +8,5 @@ link: https://doi.org/10.6084/m9.figshare.13122890
 funder: US Geological Survey (USGS)
 program: Powell Center Synthesis Working Groups
 discipline: ecoinformatics, ecology
-status: not funded
+status: unfunded
 ---
