@@ -1,6 +1,6 @@
 ---
 layout: grant
-title: Scale mismatches in ecological research and management: consequences and solutions through data management
+title: "Scale mismatches in ecological research and management: consequences and solutions through data management"
 author: Jessica L. Burnett
 ORCID: 0000-0002-0896-5099
 year: 2018
