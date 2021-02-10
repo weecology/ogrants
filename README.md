@@ -1,6 +1,6 @@
 # Open Grants List
 
-[![Travis CI Build Status](https://travis-ci.org/weecology/ogrants.svg?branch=master)](https://travis-ci.org/weecology/ogrants)
+![Grant links valid](https://github.com/weecology/ogrants/workflows/.github/workflows/link-check.yml/badge.svg)
 
 The Open Grants List is a list of grants that are openly available on the web.
 These grants can help with learning grantsmanship, understanding particular funders and their programs, and communicating science.
