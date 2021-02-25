@@ -1,4 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
+.jekyll-cache/
+.vscode/
+_grants/grant_stub.md
+_grants/grfp_stub.md
 *~
