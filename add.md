@@ -8,6 +8,8 @@ title: Add a grant
 Fill out the form below.
 You can either post your grant elsewhere (we recommend [Zenodo](https://zenodo.org/)) and provide a link to the file or upload a pdf of the grant using the button at the bottom of the form.
 
+New grants are artisanally hand processed so it might take a little while for them to show up on the site.
+
 {% include add_form.html %}
 
 ## Submit Directly To GitHub
