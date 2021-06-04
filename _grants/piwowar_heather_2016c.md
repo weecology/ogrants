@@ -7,6 +7,6 @@ link:
 link_name:
 - Letter of Interest
 status: unfunded
-title: Tear down this wall: building the Open Research Profile
+title: "Tear down this wall: building the Open Research Profile"
 year: 2016
 ---
