@@ -7,6 +7,6 @@ link:
 link_name:
 - Proposal
 status: unfunded
-title: Moving beyond mandates: Finding new ways of increasing open access
+title: "Moving beyond mandates: Finding new ways of increasing open access"
 year: 2017
 ---
