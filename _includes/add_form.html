@@ -28,18 +28,18 @@ form {
 </style>
 
 <form name="Add grant" method="POST" netlify>
-  <input type="text" name="title" placeholder="Grant title" size="50"><br>
-  <input type="text" name="author" placeholder="Author name(s)"><br>
-  <input type = "text" name="institution" placeholder="Institution"><br>
-  <input type="text" name="website" placeholder="Link to your website (optional)"><br>
-  <input type="text" name="twitter" placeholder="Twitter handle (optional)"><br>
-  <input type = "text" name="ORCID" placeholder="ORCID (see https://orcid.org/) (optional)"><br>
-  <input type = "text" name="year" placeholder="Year"><br>
-  <input type="text" name="funder" placeholder="Funder"><br>
-  <input type="text" name="program" placeholder="Program within funder. E.g., CAREER (optional)"><br>
-  <input type="text" name="discipline" placeholder="discipline; e.g., ecology"><br>
-  <input type="text" name="status" placeholder="status: funded, unfunded, or unknown"><br>
-  <input type="text" name="link" placeholder="A url that links to your grant (or you can upload a pdf below)"><br>
-  Upload a pdf of your grant: <input type="file" name="file" accept=".pdf"><br>
+  <input type="text" name="title" placeholder="Grant title" aria-label="Grant title" size="50"><br>
+  <input type="text" name="author" placeholder="Author name(s)" aria-label="Author name(s)"><br>
+  <input type = "text" name="institution" placeholder="Institution" aria-label="Institution"><br>
+  <input type="text" name="website" placeholder="Link to your website (optional)" aria-label="Link to your website (optional)"><br>
+  <input type="text" name="twitter" placeholder="Twitter handle (optional)" aria-label="Twitter handle (optional)"><br>
+  <input type = "text" name="ORCID" placeholder="ORCID (see https://orcid.org/) (optional)" aria-label="ORCID (see https://orcid.org/) (optional)"><br>
+  <input type = "text" name="year" placeholder="Year" aria-label="Year"><br>
+  <input type="text" name="funder" placeholder="Funder" aria-label="Funder"><br>
+  <input type="text" name="program" placeholder="Program within funder. E.g., CAREER (optional)" aria-label="Program within funder. E.g., CAREER (optional)"><br>
+  <input type="text" name="discipline" placeholder="discipline; e.g., ecology" aria-label="discipline; e.g., ecology"><br>
+  <input type="text" name="status" placeholder="status: funded, unfunded, or unknown" aria-label="status: funded, unfunded, or unknown"><br>
+  <input type="text" name="link" placeholder="A url that links to your grant (or you can upload a pdf below)" aria-label="A url that links to your grant (or you can upload a pdf below)"><br>
+  Upload a pdf of your grant: <input type="file" name="file" aria-label="file" accept=".pdf"><br>
   <button type="submit">Submit</button>
 </form>
