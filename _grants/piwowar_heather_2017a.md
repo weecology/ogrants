@@ -3,7 +3,7 @@ author: Juan Pablo Alperin, Heather Piwowar, and Jason Priem
 funder: Canadian Social Sciences and Humanities Research Council (SSHRC)
 layout: grant
 link:
-- 10.5281/zenodo.4895674
+- https://doi.org/10.5281/zenodo.4895674
 link_name:
 - Proposal
 status: unfunded
