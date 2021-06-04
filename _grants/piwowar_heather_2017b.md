@@ -7,6 +7,6 @@ link:
 link_name:
 - Proposal
 status: unfunded
-title: The oaBoost dashboard: Motivating OA from a researcher-centric perspective 
+title: "The oaBoost dashboard: Motivating OA from a researcher-centric perspective"
 year: 2017
 ---
