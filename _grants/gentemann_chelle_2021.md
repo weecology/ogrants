@@ -1,5 +1,5 @@
 ---
-layout: proposal
+layout: grant
 title: "Butterfly: a satellite mission to reveal the oceans' impact on our weather and climate"
 author: "Chelle L. Gentemann"
 ORCID: 0000-0002-2250-3106
