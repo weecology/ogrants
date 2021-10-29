@@ -31,10 +31,10 @@ these proposals to help you find them.
     <td>{{ grant.year }}</td>
 	<td>{{ grant.funder }}</td>
 	<td><a href="{{ grant.url }}">{{ grant.title }}</a> <small> by {{ grant.author }}</small></td>
-	{% if grant.status == 'funded' or grant.status == 'partially funded' %}
-	  <td>Yes</td>
-	{% elsif grant.status == 'unfunded' or grant.status == 'not funded' %}
+	{% if grant.status contains 'unfunded' or grant.status contains 'not funded' %}
 	  <td>No</td>
+	{% elsif grant.status contains 'funded' or grant.status contains 'partially funded' %}
+	  <td>Yes</td>
 	{% else %}
 	  <td>?</td>
 	{% endif %}

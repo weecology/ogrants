@@ -28,7 +28,7 @@ layout: default
 	    {% elsif page.status == 'unfunded' or page.status == 'not funded' %}
         <dd>No</dd>
       {% else %}
-        <dd>?</dd>
+        <dd>{{page.status}}</dd>
       {% endif %}
 
       <dt>Grant Documents</dt>
