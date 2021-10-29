@@ -14,3 +14,5 @@ This site started in 2012 as a [blog post](https://jabberwocky.weecology.org/201
 In 2017 [Ethan White](http://ethanwhite.org) built the original version of the current site to make it easier for others to contribute and submit grants.
 
 Development of this site is supported by the [Gordon and Betty Moore Foundation](https://www.moore.org/)'s [Data-Driven Discovery Initiation](https://www.moore.org/initiative-strategy-detail?initiativeId=data-driven-discovery) through [Grant GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563) to Ethan White.
+
+🎉
