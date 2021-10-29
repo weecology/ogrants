@@ -7,7 +7,7 @@ year: 2021
 link: ["https://zenodo.org/record/4906357#.YL4qSC1h2u4"]
 link_name: ["Proposal"]
 funder: NSF
-program: Graduate Research Fellowship
-discipline: evoluation
+program: Graduate Research Fellowship Program
+discipline: evolution
 status: funded
 ---
