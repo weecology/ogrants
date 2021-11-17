@@ -4,11 +4,11 @@ title: Applying radiogenic isotope geochemistry to enhance geologic framework mo
 author: Ryan E. Frazer
 ORCID: 0000-0002-7319-1894
 year: '2019'
-link: '["proposals/frazer_ryane_2019.pdf"]'
+link: https://www.ogrants.org/proposals/frazer_ryane_2019.pdf
 funder: U.S. Geological Survey (USGS)
 program: Mendenhall Research Fellowship Program
 discipline: Geology
-status: Funded
-link_name: '["Proposal"]'
+status: funded
+link_name: [Proposal]
 ---
 

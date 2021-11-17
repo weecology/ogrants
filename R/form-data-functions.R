@@ -38,7 +38,8 @@ process_form_data <- function(dat)
     dat <- dat$data
     grant_file <- create_grant_filename(dat$author, dat$year)
     grant_data <- create_grant_data(dat, grant_file)
-    write_yaml_file(grant_data, grant_file)
+    write_yaml_file(grant_data, grant_file, 
+                    fix_link_name = TRUE)
     
     author_data <- create_author_data(dat)
     author_file <- create_author_filename(dat$author)
@@ -81,7 +82,7 @@ create_grant_data <- function(dat, grant_file)
                              funder = dat$funder, 
                              program = dat$program, 
                              discipline = dat$discipline, 
-                             status = dat$status)
+                             status = tolower(dat$status))
     
     if (grant_data$link == "") # no link to proposal
     {
@@ -103,21 +104,26 @@ create_grant_data <- function(dat, grant_file)
             stop("an error occurred while trying to download the file")
         }
         
-        grant_data$link <- paste0('["', 
-                                  'https://www.ogrants.org/proposals/', 
-                                  basename(destfile), 
-                                  '"]')
-        grant_data$link_name <- '["Proposal"]'
+        grant_data$link <- paste0("https://www.ogrants.org/proposals/", 
+                                  basename(destfile))
+        grant_data$link_name <- "Proposal"
     }
     
     grant_data
 }
 
-write_yaml_file <- function(yaml_data, yaml_file, silent = FALSE)
+write_yaml_file <- function(yaml_data, yaml_file, silent = FALSE, 
+                            fix_link_name = FALSE)
 {
     to_write <- paste0("---\n", 
                        yaml::as.yaml(yaml_data), 
                        "---\n")
+    if (fix_link_name)
+    {
+        to_write <- gsub("link_name: Proposal", 
+                         "link_name: \\[Proposal\\]", 
+                         to_write)
+    }
     writeLines(to_write, yaml_file)
     if (!silent)
     {
