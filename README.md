@@ -42,8 +42,8 @@ To get this added to the site there are three options:
 1. Submit a pull request that adds the above information to a file named `lastname_firstname_year.md` in the `_grants` folder of the [GitHub repository]({{ site.github.repo }}).
   The `lastname` and `firstname` should be those for the lead PI.
   In the case of multiple grants by the same PI for the same year append letters in order to the date, e.g., `white_ethan_2026a.md`.
-2. [Open an issue](https://github.com/weecology/ogrants/issues/new) and paste the filled out YAML into that issue.
-3. [Email us](mailto:ogrants@weecology.org) the information.
+2. [Open an issue](https://github.com/ogrants/ogrants/issues/new) and paste the filled out YAML into that issue.
+3. [Email us](mailto:ogrants@googlegroups.com) the information.
 
 ### 3. Add information about the author
 

@@ -50,7 +50,7 @@ The `lastname` and `firstname` should be those for the lead PI.
 In the case of multiple grants by the same PI for the same year append letters in order to the date,
 e.g. `white_ethan_2026a.md`.
 
-Or just [open an issue](https://github.com/weecology/ogrants/issues/new) and paste the filled out YAML into that issue.
+Or just [open an issue](https://github.com/ogrants/ogrants/issues/new) and paste the filled out YAML into that issue.
 
 ### Author information
 
