@@ -8,6 +8,12 @@ title: Add a grant
 Fill out the form below.
 You can either post your grant elsewhere (we recommend [Zenodo](https://zenodo.org/)) and provide a link to the file or upload a pdf of the grant using the button at the bottom of the form.
 
+**By uploading a pdf:**
+
+**1. You agree to allow us to share your file under the [CC-BY](https://creativecommons.org/licenses/by/4.0/) license, following the conditions set out at [https://github.com/ogrants/ogrants/blob/main/LICENSE.md](https://github.com/ogrants/ogrants/blob/main/LICENSE.md).**
+
+**2. You acknowledge that you are the original copyright-owner of the file OR that you otherwise have permissions to agree to clause 1. above.**
+
 New grants are artisanally hand processed so it might take a little while for them to show up on the site.
 
 {% include add_form.html %}
