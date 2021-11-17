@@ -3,9 +3,8 @@ layout: page
 title: About
 ---
 
-An increasing number of researchers are sharing their grant proposals openly.
-They do this to open up science so that all stages of the process can benefit from better interaction and communication and to provide examples for early career scientists writing grants.
-This is a list of some of these proposals to help you find them.
+An increasing number of researchers are sharing their grant proposals
+openly. They do this to open up research so that all stages of the process can benefit from better interaction and communication and to provide examples for early career researchers writing grants. This is a list of {{ numgrant }} of these proposals to help you find them.
 
 This site runs on Jekyll using the [Hyde](http://hyde.getpoole.com) theme built on Poole.
 It is developed on [GitHub]({{ site.github.repo }}) and hosted on [Netlify](https://www.netlify.com/).

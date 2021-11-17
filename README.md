@@ -1,7 +1,7 @@
 # Open Grants List
 
 The Open Grants List is a list of grants that are openly available on the web.
-These grants can help with learning grantsmanship, understanding particular funders and their programs, and communicating science.
+These grants can help with learning grantsmanship, understanding particular funders and their programs, and communicating research and scholarship.
 
 The main website is <https://www.ogrants.org/>.
 
