@@ -23,5 +23,5 @@ While we welcome advisors with a wide range of disciplinary or professional back
 * A short (300-500 words) letter of interest
 * A short (no more than 2 pages) resume or CV
 
-via email to [grants@googlegroups.com](mailto:ogrants@googlegroups.com?subject={YOUR NAME} Application for Advisory Committee, Planning for Open Grants), with the subject "{YOUR NAME} Application for Advisory Committee, Planning for Open Grants"
+via email to [ogrants@googlegroups.com](mailto:ogrants@googlegroups.com?subject={YOUR NAME} Application for Advisory Committee, Planning for Open Grants), with the subject "{YOUR NAME} Application for Advisory Committee, Planning for Open Grants"
 
