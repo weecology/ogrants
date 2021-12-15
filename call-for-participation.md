@@ -25,3 +25,8 @@ While we welcome advisors with a wide range of disciplinary or professional back
 
 via email to [ogrants@googlegroups.com](mailto:ogrants@googlegroups.com?subject={YOUR NAME} Application for Advisory Committee, Planning for Open Grants), with the subject "{YOUR NAME} Application for Advisory Committee, Planning for Open Grants"
 
+## Acknowledgment
+
+This project was made possible in part by the [Institute of Museum and Library Services Award # LG-250067-OLS-21](https://www.imls.gov/grants/awarded/lg-250067-ols-21). 
+
+<img src = "assets/imls_logo_black.jpg" width = "50%" alt = "Institute of Museum and Library Services">
