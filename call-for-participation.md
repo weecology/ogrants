@@ -14,6 +14,8 @@ We seek 8 additional advisors to provide their unique perspectives on this endea
 
 We especially encourage and welcome applications from Black, Indigenous, and People of Color (BIPOC), first-generation graduate students, and students, faculty, and staff from Historically Black Colleges & Universities, Minority Serving Institutions, and Tribal Colleges & Universities.
 
+*At this time, we are limiting external advisors to US residents, due to travel funding restrictions. If you are not a US resident, but are interested in our project, please stay tuned for opportunities to participate in our virtual calls.*
+
 ## About You
 
 Advisors should have some knowledge of grants or fellowships and efforts to promote open access to research; however, there is no requirement for expertise in these areas or specialized technical knowledge. Instead, we ask you to bring your own knowledge and experiences to the table, to help the broader team better understand which aspects of the funding process are opaque and what we might learn through with access to a larger swath of proposals. How, for instance, might access to proposals help shed light on crafting a work plan or budget? How do collaborator networks develop through grant initiatives, and how might we enhance these through awareness of others’ work? How might we encourage long-term engagement and community building to make access to proposals a starting point for partnerships and conversation?
