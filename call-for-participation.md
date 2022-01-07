@@ -3,6 +3,8 @@ layout: page
 title: Call for Advisory Committee Participation
 ---
 
+_**We have extended the previously stated deadline. Please submit your application by Monday, February 7.**_
+
 ## Background
 
 **Planning for Open Grants: Fostering a Transparent and Accessible National Research Infrastructure**, an initiative led by the University of Florida, has undertaken an 18-month effort to establish a blueprint for implementation of a repository of openly accessible grant proposals and funding guidelines. Bringing experts together is crucial to the success of this initiative, both to envision the potential benefits as well as potential barriers. 12 advisors—including grant funders, research administrators, librarians, archivists, scholars, policy experts, and technologists—have joined the project to engage in conversation and provide feedback on deliverables throughout the award period.
@@ -25,7 +27,7 @@ While we welcome advisors with a wide range of disciplinary or professional back
 * graduate and postdoctoral fellowships, focusing on STEM disciplines; and 
 * Caribbean studies, especially in the humanities and social sciences.
 
-## To apply, please submit, by **Friday, January 14**:
+## To apply, please submit, by **Monday, February 7**:
 
 * A short (300-500 words) letter of interest
 * A short (no more than 2 pages) resume or CV
