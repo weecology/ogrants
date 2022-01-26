@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Add a grant
+title: Submit a grant
 ---
 
 ## Simple
