@@ -3,41 +3,14 @@ layout: default
 title: Home
 ---
 
-{% assign numgrant = 0 %}
-{% for grant in site.grants %}
-  {% assign numgrant = numgrant | plus: 1 %}
-{% endfor %}
+<h1>Planning for Open Grants</h1>
 
-An increasing number of researchers are sharing their grant proposals
-openly. They do this to open up research so that all stages of the process can benefit from better interaction and communication and to provide examples for early career researchers writing grants. This is a list of {{ numgrant }} of these proposals to help you find them.
+Each year, researchers and practitioners across disciplines submit thousands of proposals for grants and fellowships. Each proposal represents hours of labor and contains details about research plans, collaborators, biblographies, and past work. 
+
+To make the funding process less opaque and to share the valuable contents of these proposals, an increasing number of researchers are sharing their grant proposals openly. They do this to open up research so that all stages of the process can benefit from better interaction and communication and to provide examples for early career researchers writing grants. 
+
+An open repository of funding proposals will elevate their recognition as scholarly products, improve access for the public and other grant seekers, and bring transparency to this facet of the research process. This site includes information about a University of Florida-led initiative working toward this goal, building on a range of past efforts to share.
 
 
-<table id='main_table'>
-  <thead>
-  <tr>
-    <th>Year</th>
-    <th>Funder</th>
-    <th>Title</th>
-    <th>Funded</th>
-  </tr>
-  </thead>
-
-  <tbody>
-{% for grant in site.grants %}
-  <tr>
-    <td>{{ grant.year }}</td>
-	<td>{{ grant.funder }}</td>
-	<td><a href="{{ grant.url }}">{{ grant.title }}</a> <small> by {{ grant.author }}</small></td>
-	{% if grant.status contains 'unfunded' or grant.status contains 'not funded' %}
-	  <td>No</td>
-	{% elsif grant.status contains 'funded' or grant.status contains 'partially funded' %}
-	  <td>Yes</td>
-	{% else %}
-	  <td>?</td>
-	{% endif %}
-  </tr>
-{% endfor %}
-  </tbody>
-</table>
 
 {% include footer.html %}
