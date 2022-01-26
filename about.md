@@ -20,9 +20,10 @@ The 2021 funding proposal granted by the Institute of Museum and Library Service
 <li>Xiaoli Ma, MA/MSI, Metadata Librarian</li>
 <li>Chris Nicolich, MS, Application Developer</li>
 <li>Plato Smith, PhD, Data Management Librarian</li>
-<li>Hannah Toombs, PhD Candidate, Anthropology</li>
+<li>Hannah Toombs, PhD Candidate, Anthropology</li></ul>
 
 #### Advisory Committee
+<ul>
 <li>Karl Benedict, PhD, University of New Mexico, Director, Research Data/Services Information Technology Services for College of
 University Libraries & Learning Sciences</li>
 <li>Mirerza Gonzáles Vélez, PhD, University of Puerto Rico, Rio Piedras, Associate Dean of Academic Affairs,
@@ -37,6 +38,7 @@ College of Humanities</li>
 <li>Nadjah Ríos Villarini, PhD, University of Puerto Rico, Rio Piedras, Associate Professor for the College of General Studies</li>
 <li>Elizabeth Vu, PhD, Alfred P. Sloan Foundation, Program Associate</li>
 <li>Christa Williford, MLIS, Council on Library and Information Resources, Director of Research and Assessment</li>
+  </ul>
 
 ### Tech stack
 
