@@ -3,7 +3,7 @@ layout: page
 title: Call for Advisory Committee Participation
 ---
 
-_**We have extended the previously stated deadline. Please submit your application by Monday, February 7.**_
+_**We have extended the previously stated deadline. Please submit your application by Monday, February 21.**_
 
 ## Background
 
@@ -27,7 +27,7 @@ While we welcome advisors with a wide range of disciplinary or professional back
 * graduate and postdoctoral fellowships, focusing on STEM disciplines; and 
 * Caribbean studies, especially in the humanities and social sciences.
 
-## To apply, please submit, by **Monday, February 7**:
+## To apply, please submit, by **Monday, February 21**:
 
 * A short (300-500 words) letter of interest
 * A short (no more than 2 pages) resume or CV
