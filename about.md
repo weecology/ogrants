@@ -3,11 +3,16 @@ layout: page
 title: About
 ---
 
-An increasing number of researchers are sharing their grant proposals
-openly. They do this to bring transparency to research so that all stages of the process can benefit from better interaction and communication and to provide examples for early career researchers who are writing grants. This website provides a list of {{ numgrant }} of these proposals.
+Navigating the process to secure funding and fellowships—from project ideation to submission to award— requires copious amounts of time and energy from an interconnected group of co-authors, reviewers, and grants professionals. However, most of the resulting materials are not accessible or even visible to those outside the grants-making process, much less the general public. Consequently, this important piece of the research process remains opaque, hiding these materials from analysis and acknowledgement.
+
+This inaccessibility is an obstacle for the beneficial uses of such materials, whether as examples to help guide proposal writing, or as scholarly objects documenting the questions, methods, sources, and labor that shape a research agenda or program development over time. Although some funders and applicants post full proposals to websites or scholarly repositories, this practice is haphazard and varies depending on individual and institutional norms. Grant documents are also shared through informal networks, but this may end up reinforcing inequities through differences in awareness of and access to these networks.
+
+An open repository of funding proposals will elevate their recognition as scholarly products, improve access for the public and other grant seekers, and bring transparency to this facet of the research process. 
+
+This site builds on the longstanding OGrants project, led by Ethan White, to document a new phase of discussion, needs assessment, and technical planning for a repository of open grants.
 
 ### Full grant proposal
-The 2021 funding proposal granted by the Institute of Museum and Library Services summarizes past OGrants work and future planning through 2023.
+The **<a href="https://ufdc.ufl.edu/IR00011386/00001/pdf/0">2021 funding proposal</a>** granted by the Institute of Museum and Library Services summarizes past OGrants work and future planning through 2023.
 
 ### Project team
 #### University of Florida
