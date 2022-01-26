@@ -11,31 +11,32 @@ The 2021 funding proposal granted by the Institute of Museum and Library Service
 
 ### Project team
 #### University of Florida
-Hao Ye, PhD, Reproducibility Librarian (PI)
-Perry Collins, MA/MLIS, Copyright and OER Librarian (co-PI)
-Bess de Farber, MNM, Research Administration Manager for Libraries
-Chelsea Johnston, MLIS, Scholarly Publishing and Repository Librarian
-Brian Keith, MBA/MLIS, Associate Dean Administrative Services and Faculty Affairs for Libraries
-Xiaoli Ma, MA/MSI, Metadata Librarian
-Chris Nicolich, MS, Application Developer
-Plato Smith, PhD, Data Management Librarian
-Hannah Toombs, PhD Candidate, Anthropology 
+<ul>
+  <li>Hao Ye, PhD, Reproducibility Librarian (PI)</li>
+  <li>Perry Collins, MA/MLIS, Copyright and OER Librarian (co-PI)</li>
+  <li>Bess de Farber, MNM, Research Administration Manager for Libraries</li>
+<li>Chelsea Johnston, MLIS, Scholarly Publishing and Repository Librarian</li>
+<li>Brian Keith, MBA/MLIS, Associate Dean Administrative Services and Faculty Affairs for Libraries</li>
+<li>Xiaoli Ma, MA/MSI, Metadata Librarian</li>
+<li>Chris Nicolich, MS, Application Developer</li>
+<li>Plato Smith, PhD, Data Management Librarian</li>
+<li>Hannah Toombs, PhD Candidate, Anthropology</li>
 
 #### Advisory Committee
-Karl Benedict, PhD, University of New Mexico, Director, Research Data/Services Information Technology Services for College of
-University Libraries & Learning Sciences
-Mirerza Gonzáles Vélez, PhD, University of Puerto Rico, Rio Piedras, Associate Dean of Academic Affairs,
-College of Humanities
-Beth Hodges, MSW, Florida State University, Director, Office of Research Development
-Emily Lescak, PhD, Code for Science and Society, Event Fund Manager
-Amalia Levi, MLIS, HeritEdge Connection, Inc. Founder and Chair
-Sara Mannheimer, MSIS, Montana State University, Data Librarian
-David Mellor, PhD, Center for Open Science, Director of Policy
-Elaina Norlin, MLIS, Association of Southeastern Research Libraries, Professional Development/Diversity, Equity and Inclusion Trainer
-Jason Rhody, PhD, Social Science Research Council, Program Director
-Nadjah Ríos Villarini, PhD, University of Puerto Rico, Rio Piedras, Associate Professor for the College of General Studies
-Elizabeth Vu, PhD, Alfred P. Sloan Foundation, Program Associate
-Christa Williford, MLIS, Council on Library and Information Resources, Director of Research and Assessment
+<li>Karl Benedict, PhD, University of New Mexico, Director, Research Data/Services Information Technology Services for College of
+University Libraries & Learning Sciences</li>
+<li>Mirerza Gonzáles Vélez, PhD, University of Puerto Rico, Rio Piedras, Associate Dean of Academic Affairs,
+College of Humanities</li>
+<li>Beth Hodges, MSW, Florida State University, Director, Office of Research Development</li>
+<li>Emily Lescak, PhD, Code for Science and Society, Event Fund Manager</li>
+<li>Amalia Levi, MLIS, HeritEdge Connection, Inc. Founder and Chair</li>
+<li>Sara Mannheimer, MSIS, Montana State University, Data Librarian</li>
+<li>David Mellor, PhD, Center for Open Science, Director of Policy</li>
+<li>Elaina Norlin, MLIS, Association of Southeastern Research Libraries, Professional Development/Diversity, Equity and Inclusion Trainer</li>
+<li>Jason Rhody, PhD, Social Science Research Council, Program Director</li>
+<li>Nadjah Ríos Villarini, PhD, University of Puerto Rico, Rio Piedras, Associate Professor for the College of General Studies</li>
+<li>Elizabeth Vu, PhD, Alfred P. Sloan Foundation, Program Associate</li>
+<li>Christa Williford, MLIS, Council on Library and Information Resources, Director of Research and Assessment</li>
 
 ### Tech stack
 
