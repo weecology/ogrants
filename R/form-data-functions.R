@@ -78,6 +78,7 @@ create_grant_data <- function(dat, grant_file)
                              author = dat$author, 
                              ORCID = dat$ORCID, 
                              year = dat$year, 
+                             institution = dat$institution, 
                              link = dat$link, 
                              funder = dat$funder, 
                              program = dat$program, 
