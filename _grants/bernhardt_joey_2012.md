@@ -1,6 +1,6 @@
 ---
 layout: grant
-title: Can ocean‘cold spots’ enhance resilience to climate change?
+title: Can ocean 'cold spots' enhance resilience to climate change?
 author: Joey Bernhardt
 ORCID: 0000-0003-1824-2801
 institution: University of British Columbia
