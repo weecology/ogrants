@@ -8,7 +8,7 @@ link: https://www.ogrants.org/grants/polino_2017.html
 funder: National Institute of Allergy and Infectious Diseases
 program: F31
 discipline: Microbiology
-status: Unfunded (Scored 20; Payline was 19)
+status: unfunded (Scored 20; Payline was 19)
 link_name: [Proposal]
 ---
 
