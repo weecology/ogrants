@@ -26,7 +26,8 @@ The **<a href="https://ufdc.ufl.edu/IR00011386/00001/pdf/0">2021 funding proposa
 <li>Chris Nicolich, MS, Application Developer</li>
 <li>Plato Smith, PhD, Data Management Librarian</li>
 <li>Laurie Taylor, PhD, Sr. Director for Library Technology and Digital Strategies
-<li>Hannah Toombs, PhD Candidate, Anthropology</li></ul>
+<li>Hannah Toombs, PhD Candidate, Anthropology</li>
+</ul>
 
 #### Advisory Committee
 <ul>
