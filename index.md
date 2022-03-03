@@ -10,10 +10,9 @@ Each year, researchers and practitioners across disciplines submit thousands of 
 
 ## News and Updates
 
-### 1/24/2022—Seeking Advisory Committee Members
+### 1/24/2022—Seeking Advisory Committee Members [applications closed]
 
-With generous funding from IMLS, over the next 18 months we will be undertaking a series of planning activities to explore requirements and feasibility of an open grants repository. We are **currently accepting applications** to join the project advisory committee. Advisors will receive a stipend and will commit to attend one in-person meeting and several virtual meetings through the planning phase. **Apply by Monday, February 21st!**
-
+With generous funding from IMLS, over the next 18 months we will be undertaking a series of planning activities to explore requirements and feasibility of an open grants repository. Advisors will receive a stipend and will commit to attend one in-person meeting and several virtual meetings through the planning phase. 
 
 
 {% include footer.html %}
