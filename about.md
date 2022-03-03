@@ -30,6 +30,7 @@ The **<a href="https://ufdc.ufl.edu/IR00011386/00001/pdf/0">2021 funding proposa
 </ul>
 
 #### Advisory Committee
+<ul>
 <li>Karl Benedict, University of New Mexico, Director, Research Data/Services Information Technology Services for College of
  University Libraries & Learning Sciences</li>
 <li>Chao Cai, Purdue University, Assistant Professor, Libraries and School of Information Studies</li>
