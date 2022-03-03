@@ -17,9 +17,9 @@ The **<a href="https://ufdc.ufl.edu/IR00011386/00001/pdf/0">2021 funding proposa
 ### Project team
 #### University of Florida
 <ul>
-  <li>Hao Ye, PhD, Reproducibility Librarian (PI)</li>
-  <li>Perry Collins, MA/MLIS, Copyright and OER Librarian (co-PI)</li>
-  <li>Bess de Farber, MNM, Research Administration Manager for Libraries</li>
+<li>Hao Ye, PhD, Reproducibility Librarian (PI)</li>
+<li>Perry Collins, MA/MLIS, Copyright and OER Librarian (co-PI)</li>
+<li>Bess de Farber, MNM, Research Administration Manager for Libraries</li>
 <li>Chelsea Johnston, MLIS, Scholarly Publishing and Repository Librarian</li>
 <li>Brian Keith, MBA/MLIS, Associate Dean Administrative Services and Faculty Affairs for Libraries</li>
 <li>Xiaoli Ma, MA/MSI, Metadata Librarian</li>
@@ -30,29 +30,28 @@ The **<a href="https://ufdc.ufl.edu/IR00011386/00001/pdf/0">2021 funding proposa
 </ul>
 
 #### Advisory Committee
-<ul>
- <li>Karl Benedict, University of New Mexico, Director, Research Data/Services Information Technology Services for College of
+<li>Karl Benedict, University of New Mexico, Director, Research Data/Services Information Technology Services for College of
  University Libraries & Learning Sciences</li>
- <li>Chao Cai, Purdue University, Assistant Professor, Libraries and School of Information Studies</li>
- <li>Lisa Correa, Rutgers University, Assistant Director for Research Development, Office of Research</li>
- <li>Mirerza Gonzáles Vélez, University of Puerto Rico, Rio Piedras, Associate Dean of Academic Affairs,
+<li>Chao Cai, Purdue University, Assistant Professor, Libraries and School of Information Studies</li>
+<li>Lisa Correa, Rutgers University, Assistant Director for Research Development, Office of Research</li>
+<li>Mirerza Gonzáles Vélez, University of Puerto Rico, Rio Piedras, Associate Dean of Academic Affairs,
  College of Humanities</li>
- <li>Jessica Hernandez, Whitman College, Director of Fellowships and Grants</li>
- <li>Beth Hodges, Florida State University, Director, Office of Research Development</li>
- <li>Kari Jordan, The Carpentries, Executive Director</li>
- <li>Emily Lescak, Code for Science and Society, Event Fund Manager</li>
- <li>Amalia Levi, HeritEdge Connection, Inc. Founder and Chair</li>
- <li>Sara Mannheimer, Montana State University, Data Librarian</li>
- <li>Traci Mark, Metropolitan New York Library Council, Program Manager, Equity, Archives and Media Preservation</li>
- <li>Kevin McPherson, Knowledge Futures/Open Grant Data Commons</li>
- <li>David Mellor, Center for Open Science, Director of Policy</li>
- <li>Elaina Norlin, Association of Southeastern Research Libraries, Professional Development/Diversity, Equity and Inclusion Trainer</li>
- <li>Gemmicka Piper, IUPUI, Humanities Librarian</li>
- <li>Jason Rhody, Modern Language Association, Director of Academic Program Services & Professional Development</li>
- <li>Nadjah Ríos Villarini, University of Puerto Rico, Rio Piedras, Associate Professor for the College of General Studies</li>
- <li>Dylan Ruediger, Ithaka S+R, Sr. Analyst</li>
- <li>Elizabeth Vu, Alfred P. Sloan Foundation, Program Associate</li>
- <li>Christa Williford, Council on Library and Information Resources, Director of Research and Assessment</li>  
+<li>Jessica Hernandez, Whitman College, Director of Fellowships and Grants</li>
+<li>Beth Hodges, Florida State University, Director, Office of Research Development</li>
+<li>Kari Jordan, The Carpentries, Executive Director</li>
+<li>Emily Lescak, Code for Science and Society, Event Fund Manager</li>
+<li>Amalia Levi, HeritEdge Connection, Inc. Founder and Chair</li>
+<li>Sara Mannheimer, Montana State University, Data Librarian</li>
+<li>Traci Mark, Metropolitan New York Library Council, Program Manager, Equity, Archives and Media Preservation</li>
+<li>Kevin McPherson, Knowledge Futures/Open Grant Data Commons</li>
+<li>David Mellor, Center for Open Science, Director of Policy</li>
+<li>Elaina Norlin, Association of Southeastern Research Libraries, Professional Development/Diversity, Equity and Inclusion Trainer</li>
+<li>Gemmicka Piper, IUPUI, Humanities Librarian</li>
+<li>Jason Rhody, Modern Language Association, Director of Academic Program Services & Professional Development</li>
+<li>Nadjah Ríos Villarini, University of Puerto Rico, Rio Piedras, Associate Professor for the College of General Studies</li>
+<li>Dylan Ruediger, Ithaka S+R, Sr. Analyst</li>
+<li>Elizabeth Vu, Alfred P. Sloan Foundation, Program Associate</li>
+<li>Christa Williford, Council on Library and Information Resources, Director of Research and Assessment</li>  
 </ul>
 
 ### Tech stack
