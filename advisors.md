@@ -11,7 +11,7 @@ We are no longer accepting applications for the Planning for Open Grants Advisor
 
 ### Meeting
 
-The Advisory Committee will meet with the UF Team, May 19-20 in Gainesville, Florida. Please see the tentative [meeting agenda](advisors-meeting-agenda) for details.
+The Advisory Committee will meet with the UF Team, 2022 May 19-20 in Gainesville, Florida. Please see the tentative [meeting agenda](advisors-meeting-agenda) for details.
 
 ### Advisory Committee
 

@@ -4,7 +4,7 @@ title: Advisory Group Meeting Agenda
 ---
 (times in Eastern Time)
 
-## Thursday, May 19
+## Thursday, 2022 May 19 
 
 ### Check-ins (0830 - 0900)
 
@@ -77,7 +77,7 @@ title: Advisory Group Meeting Agenda
   - discussion steps for day 2
   - review logistics for dinner and day 2
 
-## Friday, May 20
+## Friday, 2022 May 20
 
 ### Check-ins (0830 - 0900)
 
