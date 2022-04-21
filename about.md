@@ -1,5 +1,6 @@
 ---
 layout: page
+menu: yes
 title: About
 ---
 
@@ -29,28 +30,8 @@ The **[2021 funding proposal](https://ufdc.ufl.edu/IR00011386/00001/pdf/0)** gra
 * Hannah Toombs, PhD Candidate, Anthropology
 
 #### Advisory Committee
-* Karl Benedict, University of New Mexico, Director, Research Data/Services Information Technology Services for College of
- University Libraries & Learning Sciences
-* Chao Cai, Purdue University, Assistant Professor, Libraries and School of Information Studies
-* Lisa Correa, Rutgers University, Assistant Director for Research Development, Office of Research
-* Mirerza Gonzáles Vélez, University of Puerto Rico, Rio Piedras, Associate Dean of Academic Affairs,
- College of Humanities
-* Jessica Hernandez, Whitman College, Director of Fellowships and Grants
-* Beth Hodges, Florida State University, Director, Office of Research Development
-* Kari Jordan, The Carpentries, Executive Director
-* Emily Lescak, Wikimedia Foundation, Senior Research Community Officer
-* Amalia Levi, HeritEdge Connection, Inc. Founder and Chair
-* Sara Mannheimer, Montana State University, Data Librarian
-* Traci Mark, Metropolitan New York Library Council, Program Manager, Equity, Archives and Media Preservation
-* Kevin McPherson, Knowledge Futures/Open Grant Data Commons
-* David Mellor, Center for Open Science, Director of Policy
-* Elaina Norlin, Association of Southeastern Research Libraries, Professional Development/Diversity, Equity and Inclusion Trainer
-* Gemmicka Piper, IUPUI, Humanities Librarian
-* Jason Rhody, Modern Language Association, Director of Academic Program Services & Professional Development
-* Nadjah Ríos Villarini, University of Puerto Rico, Rio Piedras, Associate Professor for the College of General Studies
-* Dylan Ruediger, Ithaka S+R, Sr. Analyst
-* Elizabeth Vu, Alfred P. Sloan Foundation, Program Associate
-* Christa Williford, Council on Library and Information Resources, Director of Research and Assessment  
+
+The Planning for Open Grants project is advised by an external [advisory committee](advisors), selected from among domain experts and stakeholders.
 
 ### Tech stack
 

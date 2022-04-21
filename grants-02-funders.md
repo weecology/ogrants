@@ -1,5 +1,6 @@
 ---
 layout: page
+menu: yes
 title: Grants by Funder
 ---
 
