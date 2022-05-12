@@ -23,7 +23,7 @@ title: Advisory Group Meeting Agenda
   - auto-advancing slides (1 for each participant, including UF team)
   - name, title, affiliation, headshot
   - description of role/interest as it relates to grants
-  - {need to make template for this}
+  - [template](https://docs.google.com/presentation/d/1tz30gpPxkn1F2ooremhen6YHGpF42-nUVKCjNXBnsz0/edit?usp=sharing)
 
 ### SHORT BREAK (1015 - 1030)
 
