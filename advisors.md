@@ -29,7 +29,6 @@ The Advisory Committee will meet with the UF Team, 2022 May 19-20 in Gainesville
 * Sara Mannheimer, Montana State University, Data Librarian
 * Traci Mark, Metropolitan New York Library Council, Program Manager, Equity, Archives and Media Preservation
 * Kevin McPherson, Knowledge Futures/Open Grant Data Commons
-* David Mellor, Center for Open Science, Director of Policy
 * Elaina Norlin, Association of Southeastern Research Libraries, Professional Development/Diversity, Equity and Inclusion Trainer
 * Gemmicka Piper, IUPUI, Humanities Librarian
 * Jason Rhody, Modern Language Association, Director of Academic Program Services & Professional Development
