@@ -28,6 +28,7 @@ The **[2021 funding proposal](https://ufdc.ufl.edu/IR00011386/00001/pdf/0)** gra
 * Plato Smith, PhD, Data Management Librarian
 * Laurie Taylor, PhD, Sr. Director for Library Technology and Digital Strategies
 * Hannah Toombs, PhD Candidate, Anthropology
+* Natalia Uribe-Castañeda, PhD Student, Interdisciplinary Ecology
 
 #### Advisory Committee
 
