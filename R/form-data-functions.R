@@ -85,6 +85,11 @@ create_grant_data <- function(dat, grant_file)
                              discipline = dat$discipline, 
                              status = tolower(dat$status))
     
+    if (grant_data$ORCID == "") # no ORCID
+    {
+        grant_data$ORCID <- NULL
+    }
+    
     if (grant_data$link == "") # no link to proposal
     {
         if (is.null(dat$file) || dat$file == "") # use uploaded file
