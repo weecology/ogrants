@@ -1,0 +1,12 @@
+---
+layout: none
+search: exclude
+---
+id|year|funder|program|url|title|author|link|discipline|status
+{% for grant in site.grants %}
+{{ grant.path | slice: 8, 99 | replace: '.md', '' }}|{{ grant.year }}|{{ 
+grant.funder }}|"{{ grant.program }}"|{{ site.baseurl }}{{ grant.url 
+}}|"{{ grant.title | strip_newlines }}"|"{{ grant.author }}"|{% for lnk in 
+grant.link %}<{{ lnk | strip_newlines }}>{% endfor %}|"{{ grant.discipline 
+}}"|{{ grant.status }}
+{% endfor %}
