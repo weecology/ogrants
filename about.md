@@ -47,7 +47,7 @@ In 2021, the Institute of Museum and Library Services awarded the University of 
 
 ### Acknowledgments
 
-Development of this site is supported by the [Gordon and Betty Moore Foundation](https://www.moore.org/)'s [Data-Driven Discovery Initiation](https://www.moore.org/initiative-strategy-detail?initiativeId=data-driven-discovery) through [Grant GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563) to Ethan White.
+Development of this site is supported by the [Gordon and Betty Moore Foundation](https://www.moore.org/)'s [Data-Driven Discovery Initiative](https://www.moore.org/initiative-strategy-detail?initiativeId=data-driven-discovery) through [Grant GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563) to Ethan White.
 
 This project was made possible in part by the [Institute of Museum and Library Services Award # LG-250067-OLS-21](https://www.imls.gov/grants/awarded/lg-250067-ols-21) to Hao Ye and Perry Collins. 
 
