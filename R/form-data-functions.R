@@ -90,6 +90,11 @@ create_grant_data <- function(dat, grant_file)
         grant_data$ORCID <- NULL
     }
     
+    if (grant_data$program == "") # no program
+    {
+        grant_data$program <- NULL
+    }
+    
     if (grant_data$link == "") # no link to proposal
     {
         if (is.null(dat$file) || dat$file == "") # use uploaded file

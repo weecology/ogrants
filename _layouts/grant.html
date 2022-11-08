@@ -17,7 +17,7 @@ layout: default
   
       <dt>Funding Source</dt>
       {% if page.program %}
-        <dd>{{ page.funder }} ({{ page.program }})</dd>
+        <dd>{{ page.funder }} {% if page.program and page.program != '' %}({{ page.program }}){% endif %}</dd>
       {% else %}
         <dd>{{ page.funder }}</dd>
       {% endif %}
