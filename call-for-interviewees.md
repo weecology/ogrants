@@ -15,7 +15,9 @@ Our research team is formed by:
 
 More information about the study can be found at [assets/IRB_subject-information.docx](assets/IRB_subject-information.docx)
 
-To participate, please email Hao Ye <haoye@ufl.edu> with the subject “{YOUR NAME} Interview Request for Research Study Planning for Open Grants”, and a member of our research team will reach out to schedule an interview time.
+~~To participate, please email Hao Ye <haoye@ufl.edu> with the subject “{YOUR NAME} Interview Request for Research Study Planning for Open Grants”, and a member of our research team will reach out to schedule an interview time.~~
+
+We are not accepting any more interview requests at this time.
 
 ### Acknowledgments
 
