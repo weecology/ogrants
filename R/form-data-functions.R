@@ -49,22 +49,31 @@ process_form_data <- function(dat)
     }
 }
 
+extract_name <- function(author)
+{
+    name_pattern <- "^[\\s,]*([^\\s,]+)"
+    first_name <- tolower(stringr::str_extract(author, name_pattern, group = 1))
+    remainder <- stringr::str_remove(author, name_pattern)
+    last_name <- tolower(stringr::str_extract(remainder, name_pattern, group = 1))
+    
+    paste0(last_name, "_", first_name)
+}
+
 create_grant_filename <- function(author, year)
 {
-    last_name <- tolower(stringr::str_extract(author, "(\\S)+$"))
-    first_name <- tolower(gsub("\\W", "", sub("(\\S)+$", "", author)))
+    name <- extract_name(author)
     grant_file <- here::here("_grants", 
-                             paste0(last_name, "_", first_name, "_", year, ".md"))
+                             paste0(name, "_", year, ".md"))
     counter <- 1
     while (file.exists(grant_file))
     {
         if (is.na(letters[counter]))
         {
             stop("exceeded max number of grant files for ", 
-                 last_name, "_", first_name, "_", year)
+                 name, "_", year)
         }
         grant_file <- here::here("_grants", 
-                                 paste0(last_name, "_", first_name, "_", 
+                                 paste0(name, "_", 
                                         year, letters[counter], ".md"))
         counter <- counter + 1
     }
@@ -154,8 +163,7 @@ create_author_data <- function(dat)
 
 create_author_filename <- function(author)
 {
-    last_name <- tolower(stringr::str_extract(author, "(\\S)+$"))
-    first_name <- tolower(gsub("\\W", "", sub("(\\S)+$", "", author)))
+    name <- extract_name(author)
     here::here("_authors", 
-               paste0(last_name, "_", first_name, ".md"))
+               paste0(name, ".md"))
 }
