@@ -17,9 +17,9 @@ By “experts,” we mean individuals who engage professionally and/or have an a
 
 If selected to participate, each expert is expected to:
 
-*Give a 15-30 min. virtual presentation on a project, publication, etc. related to sharing grant proposals or grant-related data.
-*Co-facilitate a virtual community call where individuals engaged with each domain will discuss current work and next steps. This will include one planning call and a request to recommend potential participants.
-*In collaboration with community members and the PFOG team, co-author and edit a short case study describing existing infrastructure for proposal sharing in each domain.
+* Give a 15-30 min. virtual presentation on a project, publication, etc. related to sharing grant proposals or grant-related data.
+* Co-facilitate a virtual community call where individuals engaged with each domain will discuss current work and next steps. This will include one planning call and a request to recommend potential participants.
+* In collaboration with community members and the PFOG team, co-author and edit a short case study describing existing infrastructure for proposal sharing in each domain.
 
 Experts will receive a $1,000 stipend for their service to the project. It is expected that all work will take place remotely.
 
