@@ -25,8 +25,8 @@ Experts will receive a $1,000 stipend for their service to the project. It is ex
 
 ## To apply, please submit, by **Wednesday, April 26**:
 
-* A short (300-500 words) letter of interest
-* A short (no more than 2 pages) resume or CV
+* A short (1-2 paragraphs) expression of interest
+* A short (no more than 1-2 pages) resume or CV
 
 via email to [ogrants@googlegroups.com](mailto:ogrants@googlegroups.com?subject={YOUR NAME} Application for Community Feedback Expert, Planning for Open Grants), with the subject "{YOUR NAME} Application for Community Feedback Expert, Planning for Open Grants"
 
