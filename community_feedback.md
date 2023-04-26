@@ -23,7 +23,7 @@ Each expert is expected to:
 
 _Experts will receive a $1,000 stipend for their service to the project. Funding is available to support up to 15 experts. It is expected that all work will take place remotely._
 
-## To apply, please submit, by **Wednesday, April 26**:
+## To apply, please submit, by **Friday, May 5**:
 
 * A short (1-2 paragraphs) expression of interest
 * A short (no more than 1-2 pages) resume or CV
