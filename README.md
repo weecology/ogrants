@@ -64,4 +64,10 @@ If you're submitting a pull request it should be placed in a file named `lastnam
 
 ## Acknowledgments
 
-Development of this site is supported by the [Gordon and Betty Moore Foundation](https://www.moore.org/)'s [Data-Driven Discovery Initiation](https://www.moore.org/initiative-strategy-detail?initiativeId=data-driven-discovery) through [Grant GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563) to Ethan White.
+Development of this site has received support from the following sources:
+
+1. [Gordon and Betty Moore Foundation](https://www.moore.org/)'s [Data-Driven Discovery Initiation](https://www.moore.org/initiative-strategy-detail?initiativeId=data-driven-discovery) through [Grant GBMF4563](https://www.moore.org/grant-detail?grantId=GBMF4563) to Ethan White.
+
+2. [Institute of Museum and Library Services](https://www.imls.gov/)'s [National Leadership Grants for Libraries](https://www.imls.gov/grants/available/national-leadership-grants-libraries) through [Award # LG-250067-OLS-21](https://www.imls.gov/grants/awarded/lg-250067-ols-21) to Hao Ye and Perry Collins.
+
+3. [University of FLorida Library Technology Services](https://lts.uflib.ufl.edu/). 

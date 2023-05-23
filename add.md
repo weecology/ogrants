@@ -4,10 +4,11 @@ menu: yes
 title: Submit a grant
 ---
 
-## Simple
+## Instructions
 
 Fill out the form below.
-You can either post your grant elsewhere (we recommend [Zenodo](https://zenodo.org/)) and provide a link to the file or upload a pdf of the grant using the button at the bottom of the form.
+
+You can either upload your grant files elsewhere (we recommend [Zenodo](https://zenodo.org/)) and provide a link to the file OR upload a pdf using the button at the bottom of the form.
 
 **By uploading a pdf:**
 
@@ -15,7 +16,7 @@ You can either post your grant elsewhere (we recommend [Zenodo](https://zenodo.o
 
 **2. You acknowledge that you are the original copyright-owner of the file OR that you otherwise have permissions to agree to clause 1. above.**
 
-New grants are artisanally hand processed so it might take a little while for them to show up on the site.
+New grants are artisanally hand-processed so it might take a little while for them to show up on the site.
 
 {% include add_form.html %}
 
@@ -51,7 +52,7 @@ The `lastname` and `firstname` should be those for the lead PI.
 In the case of multiple grants by the same PI for the same year append letters in order to the date,
 e.g. `white_ethan_2026a.md`.
 
-Or just [open an issue](https://github.com/ogrants/ogrants/issues/new) and paste the filled out YAML into that issue.
+Or [open an issue](https://github.com/ogrants/ogrants/issues/new) and paste the filled out YAML into that issue.
 
 ### Author information
 
