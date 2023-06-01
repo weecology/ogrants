@@ -18,8 +18,8 @@ The **[2021 funding proposal](https://ufdc.ufl.edu/IR00011386/00001/pdf/0)** gra
 ### Project team
 #### University of Florida
 
-* Hao Ye, PhD, Reproducibility Librarian (PI)
-* Perry Collins, MA/MLIS, Copyright and OER Librarian (co-PI)
+* Perry Collins, MA/MLIS, Copyright and OER Librarian (PI, June 2023 and later)
+* Hao Ye, PhD, Reproducibility Librarian (PI, May 2023 and earlier)
 * Bess de Farber, MNM, Research Administration Manager for Libraries
 * Chelsea Johnston, MLIS, Scholarly Publishing and Repository Librarian
 * Brian Keith, MBA/MLIS, Associate Dean Administrative Services and Faculty Affairs for Libraries
