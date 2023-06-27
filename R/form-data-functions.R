@@ -51,11 +51,17 @@ process_form_data <- function(dat)
 
 extract_name <- function(author)
 {
-    name_pattern <- "^[\\s,]*([^\\s,]+)"
-    first_name <- tolower(stringr::str_extract(author, name_pattern, group = 1))
-    remainder <- stringr::str_remove(author, name_pattern)
-    last_name <- tolower(stringr::str_extract(remainder, name_pattern, group = 1))
-    
+    name_pattern_begin <- "^[\\s,]*([^\\s,]+)"
+    name_pattern_end <-  "([^\\s,]+)[\\s,]*$"
+    if (stringr::str_detect(author, ",") || stringr::str_detect(author, " and "))
+    {
+        first_name <- tolower(stringr::str_extract(author, name_pattern_begin, group = 1))
+        remainder <- stringr::str_remove(author, name_pattern_begin)
+        last_name <- tolower(stringr::str_extract(remainder, name_pattern_begin, group = 1))
+    } else {
+        first_name <- tolower(stringr::str_extract(author, name_pattern_begin, group = 1))
+        last_name <- tolower(stringr::str_extract(author, name_pattern_end, group = 1))
+    }    
     paste0(last_name, "_", first_name)
 }
 
@@ -106,7 +112,7 @@ create_grant_data <- function(dat, grant_file)
     
     if (grant_data$link == "") # no link to proposal
     {
-        if (is.null(dat$file) || dat$file == "") # use uploaded file
+        if (is.null(dat$file) || dat$file$filename == "") # use uploaded file
         {
             stop("no link to proposal found, and no proposal attached")
         }
