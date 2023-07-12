@@ -16,9 +16,25 @@ This project is part of PhD studies in English for Academic Purposes (EAP) at Un
 
 ## Aim
 
-The aim is to investigate the writing of grant proposals as an attempt to understand the linguistic and rhetorical features, across disciplines, of proposals written in both English and Portuguese. Ultimately, the study’s goal is to determine/comprehend what factors may impact the success or failure in obtaining research funding.
+The purpose is to investigate the writing of grant proposals across disciplines as an
+attempt to understand the linguistic and rhetorical features of proposals written in both
+English and Portuguese. Ultimately, the study’s goal is to determine/comprehend what
+factors may impact the success or failure in obtaining research funding.
 
-Considering that grant proposals are not publicly available, they represent a type of text that is not well-known and requires scientific investigation. This study may benefit particularly the new generation of researchers from  various fields, particularly, those in low-income or middle-income countries (LMICs).
+Considering that grant proposals are not publicly available, they represent a type of text
+that is not well-known and requires scientific investigation. This study may benefit the
+new generation of researchers from various fields, particularly, those in low-income or
+middle-income countries (LMICs).
+
+## Incentive
+
+Those contributing with the research will be invited for a hybrid course on Grant
+Proposals Writing in English and Portuguese promoted by PhD student responsible for the
+research.
+
+A certificate will be issued by the Laboratory of Academic Literacy of the Department of
+Modern Languages of Faculty of Philosophy, Languages and Literature, and Human
+Sciences of the University of São Paulo – USP.
 
 ## How to submit
 
