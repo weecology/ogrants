@@ -10,6 +10,10 @@ Each year, researchers and practitioners across disciplines submit thousands of 
 
 ## News and Updates
 
+### 2023-07-12 --- Call for Grant proposals written in English and/or Portuguese
+
+[see details](call-for-english-and-portuguese-proposals)
+
 ### 2023-04-06 --- Call for Community Feedback Experts
 
 [see details](community_feedback)
