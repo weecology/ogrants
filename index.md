@@ -31,4 +31,6 @@ Each year, researchers and practitioners across disciplines submit thousands of 
 
 With generous funding from IMLS, over the next 18 months we will be undertaking a series of planning activities to explore requirements and feasibility of an open grants repository. Advisors will receive a stipend and will commit to attend one in-person meeting and several virtual meetings through the planning phase. 
 
+[see details](call-for-advisors)
+
 {% include footer.html %}
