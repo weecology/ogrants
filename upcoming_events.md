@@ -15,12 +15,12 @@ The PFOG advisory committee has surfaced a variety of potential concerns with gr
 
 ### Describing and discovering proposals
 *Thursday, November 2nd, 11am Eastern*  
-*[Register](https://ufl.zoom.us/meeting/register/tJAodOGprzwuHtxEBsP35Kqdcuk3mBIslVtb)*  
+***[Register](https://ufl.zoom.us/meeting/register/tJAodOGprzwuHtxEBsP35Kqdcuk3mBIslVtb)***  
 Which descriptive metadata elements are most valuable in finding and understanding grant proposals? How do these complement or enrich basic metadata already available from funders? These questions are critical to moving forward with sharing proposals, whether through a standalone repository or incorporated into other existing repositories. This session will offer an opportunity to discuss the metadata scheme drafted by the project team, and to consider ways to improve or refine these recommendations.
 
 ### Contributing to the scholarly record
 *Thursday, November 30th, 1pm Eastern*  
-*[Register](https://ufl.zoom.us/meeting/register/tJ0kcOiorD4jEtPM7MMliMkIqx9HoWTv61dp)*  
+***[Register](https://ufl.zoom.us/meeting/register/tJ0kcOiorD4jEtPM7MMliMkIqx9HoWTv61dp)***  
 Much like other “gray literature” (e.g., newsletters, reports), grant proposals are seldom recognized as research objects in and of themselves. This session will consider how researchers and collaborators should get credit for the labor of writing proposals by compiling concrete ways to make this a reality, beyond circulating the proposals online. How would integrations with other repositories or frameworks such as ORCID promote this? Which metadata--about a grant’s project team, references or citations, quality ratings, etc.--could potentially demonstrate the value of a particular proposal, and which may be infeasible or undesirable?
 
 
