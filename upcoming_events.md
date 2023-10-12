@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Register for Community Conversations!
+title: Upcoming Events
 ---
 
 ## Register for Community Conversations!
@@ -25,7 +25,7 @@ Much like other “gray literature” (e.g., newsletters, reports), grant propos
 
 
 
-
+---
 ## Acknowledgments
 
 This project was made possible in part by the [Institute of Museum and Library Services Award # LG-250067-OLS-21](https://www.imls.gov/grants/awarded/lg-250067-ols-21). 
