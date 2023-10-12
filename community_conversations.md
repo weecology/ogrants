@@ -3,8 +3,7 @@ layout: page
 title: Register for Community Conversations!
 ---
 
-## Background
-
+## Register for Community Conversations!
 **Planning for Open Grants: Fostering a Transparent and Accessible National Research Infrastructure**, an initiative led by the University of Florida, has undertaken an effort to establish a blueprint for wider dissemination of openly accessible grant proposals and funding guidelines. 
 
 Following an advisory committee meeting in 2022, we are excited to broaden the conversation to interested researchers, librarians, archivists, research administrators, and funders through a series of three open community conversations:
