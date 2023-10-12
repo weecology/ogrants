@@ -10,7 +10,7 @@ Following an advisory committee meeting in 2022, we are excited to broaden the c
 
 ### What are we so afraid of?
 Thursday, October 26th, 2pm Eastern  
-** *[Register](https://ufl.zoom.us/meeting/register/tJEtfu-qqjktHNWpLp63zKfe18qmcRylfq7A)* **  
+***[Register](https://ufl.zoom.us/meeting/register/tJEtfu-qqjktHNWpLp63zKfe18qmcRylfq7A)***  
 The PFOG advisory committee has surfaced a variety of potential concerns with grant sharing, including fear of “scooping”; anxiety over unfulfilled project goals, risk of sharing financial information, and potential for targeting by bad actors seeking out research on supposedly objectionable topics. This call will review and prioritize the most pressing fears and concerns and develop a strategy or talking points for addressing each one.
 
 ### Describing and discovering proposals
