@@ -7,7 +7,7 @@ ORCID: https://orcid.org/0000-0002-3623-172X; https://orcid.org/0000-0001-5934-7
 year: '2024'
 institution: 'Research Software Alliance '
 link: https://zenodo.org/records/10927376
-funder: 'Alfred P. Sloan Foundation '
+funder: 'Alfred P. Sloan Foundation'
 program: Technology program - Better Software for Science
 discipline: 'research software '
 status: funded
