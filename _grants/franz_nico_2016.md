@@ -4,7 +4,7 @@ title: 'Controlling the taxonomic variable: Taxonomic concept resolution for a s
 author: Nico Franz
 year: 2016
 link: https://doi.org/10.3897/rio.2.e10610
-funder: NSF
+funder: "U.S. National Science Foundation (NSF)"
 program: Advances in Biological Informatics (ABI)
 status:
 ---

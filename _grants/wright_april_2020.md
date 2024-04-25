@@ -6,7 +6,7 @@ ORCID: 0000-0003-4692-3225
 year: 2020
 link: ["https://doi.org/10.5281/zenodo.4323127"]
 link_name: [Proposal]
-funder: "National Science Foundation"
+funder: "U.S. National Science Foundation (NSF)"
 program: "CAREER"
 discipline: evolution, paleobiology
 status: funded
