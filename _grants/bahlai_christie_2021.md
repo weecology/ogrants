@@ -5,7 +5,7 @@ author: Christie Bahlai
 ORCID: 0000-0001-6933-5253
 year: 2021
 link: https://github.com/BahlaiLab/CAREER2020
-funder: NSF
+funder: "U.S. National Science Foundation (NSF)"
 program: CAREER
 discipline: ecology, informatics
 status: funded

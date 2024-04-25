@@ -5,7 +5,7 @@ author: 'Rebecca Garabed (PI), Song Liang, Mark Moritz, and Ningshuan Xiao'
 ORCID: 
 year: 2009
 link: https://mlab.osu.edu/sites/mlab.osu.edu/files/EEID%20project%20description%202009.pdf
-funder: NSF
+funder: "U.S. National Science Foundation (NSF)"
 program: Ecology and Evolution of Infectious Diseases (EEID) 
 discipline: interdisciplinary, veterinary medicine, geography, public health, anthropology
 status: funded

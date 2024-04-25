@@ -5,7 +5,7 @@ author: Mark Moritz, Michael Durand, Ian Hamilton, Bryan Mark, Ningchuan Xiao
 ORCID: 0000-0003-0644-0069
 year: 2012
 link: https://mlab.osu.edu/sites/mlab.osu.edu/files/project%20description%20CNH%20MORSL.pdf
-funder: NSF
+funder: "U.S. National Science Foundation (NSF)"
 program: Dynamics of Coupled Human and Natural Systems
 discipline: anthropology, geography, earth sciences, ecology, biology, environmental sciences
 status: funded

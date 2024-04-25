@@ -7,7 +7,7 @@ ORCID: 0000-0003-3209-0517
 year: '2022'
 institution: Stanford University
 link: https://www.ogrants.org/proposals/nell_lucas_2022.pdf
-funder: NSF
+funder: "U.S. National Science Foundation (NSF)"
 program: Postdoctoral Fellowship in Biology
 discipline: evolutionary ecology
 status: funded

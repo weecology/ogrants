@@ -8,7 +8,7 @@ ORCID: 0000-0003-4096-2637
 year: '2022'
 institution: University of Florida
 link: https://www.ogrants.org/proposals/reisinger_alexander_2022.pdf
-funder: National Science Foundation
+funder: "U.S. National Science Foundation (NSF)"
 program: DISES
 discipline: interdisciplinary
 status: funded
