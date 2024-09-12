@@ -39,7 +39,7 @@ status: funded
 The items to the right of the `:` on each line should be changed to match the grant you want to add.
 To get this added to the site there are three options:
 
-1. Submit a pull request that adds the above information to a file named `lastname_firstname_year.md` in the `_grants` folder of the [GitHub repository]({{ site.github.repo }}).
+1. Submit a pull request that adds the above information to a file named `lastname_firstname_year.md` in the `_grants` folder of this GitHub repository.
   The `lastname` and `firstname` should be those for the lead PI.
   In the case of multiple grants by the same PI for the same year append letters in order to the date, e.g., `white_ethan_2026a.md`.
 2. [Open an issue](https://github.com/ogrants/ogrants/issues/new) and paste the filled out YAML into that issue.
