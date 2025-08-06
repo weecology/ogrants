@@ -8,6 +8,6 @@ institution: "MetaDocencia, UNC Supercómputo"
 link: https://zenodo.org/records/15880737
 funder: "Invest in Open Infrastructure (IOI)"
 program: IOI Fund For Network Adoption
-status:
+status: unfunded
 link_name: [Proposal]
 ---
