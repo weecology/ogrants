@@ -8,6 +8,6 @@ institution: "MetaDocencia, PREreview"
 link: https://zenodo.org/records/15880814
 funder: "Invest in Open Infrastructure (IOI)"
 program: IOI Fund For Network Adoption
-status:
+status: unfunded
 link_name: [Proposal]
 ---
