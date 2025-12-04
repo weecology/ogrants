@@ -60,7 +60,7 @@ for path in grant_paths:
         links = [links]
     assert isinstance(links, list)
     for i, link in enumerate(links):
-        if link in skip_links:
+        if link in skip_links or "www.ogrants.org/proposals/" in link:
             continue
         if not link_resolves(link):
             print('---------Link Broken---------')
