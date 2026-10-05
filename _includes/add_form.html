@@ -20,26 +20,147 @@ button {
     cursor: pointer;
 }
 
+button.add-author-btn, button.remove-author-btn {
+    width: auto;
+    padding: 8px 16px;
+    margin: 4px 0;
+}
+
+button.add-author-btn {
+    background-color: #90a959;
+}
+
+button.remove-author-btn {
+    background-color: #d28445;
+}
+
 form {
     border-radius: 10px;
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+.author-entry {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.author-entry h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.authors-section {
+    margin: 15px 0;
+}
+
+.authors-section h3 {
+    margin-bottom: 5px;
+}
+
+.authors-section p {
+    margin-top: 0;
+    font-size: 0.9em;
+    color: #666;
+}
 </style>
 
 <form name="Add grant" method="POST" netlify>
   <input type="text" name="title" placeholder="Grant title" aria-label="Grant title" size="50"><br>
-  <input type="text" name="author" placeholder="Author name(s)" aria-label="Author name(s)"><br>
-  <input type = "text" name="institution" placeholder="Institution" aria-label="Institution"><br>
-  <input type="text" name="website" placeholder="Link to your website (optional)" aria-label="Link to your website (optional)"><br>
-  <input type="text" name="twitter" placeholder="Twitter handle (optional)" aria-label="Twitter handle (optional)"><br>
-  <input type = "text" name="ORCID" placeholder="ORCID (see https://orcid.org/) (optional)" aria-label="ORCID (see https://orcid.org/) (optional)"><br>
-  <input type = "text" name="year" placeholder="Year" aria-label="Year"><br>
+
+  <div class="authors-section">
+    <h3>Authors</h3>
+    <p>Add one or more authors. Each author can have their own ORCID and institution.</p>
+
+    <div id="authors-container">
+      <div class="author-entry" data-author-index="0">
+        <h4>Author 1</h4>
+        <input type="text" name="authors[0][name]" placeholder="Author name" aria-label="Author 1 name" required>
+        <input type="text" name="authors[0][institution]" placeholder="Institution" aria-label="Author 1 institution">
+        <input type="text" name="authors[0][orcid]" placeholder="ORCID (e.g., 0000-0001-2345-6789)" aria-label="Author 1 ORCID">
+        <input type="text" name="authors[0][website]" placeholder="Website (optional)" aria-label="Author 1 website">
+      </div>
+    </div>
+
+    <button type="button" class="add-author-btn" id="add-author">+ Add Another Author</button>
+  </div>
+
+  <input type="text" name="year" placeholder="Year" aria-label="Year"><br>
   <input type="text" name="funder" placeholder="Funder" aria-label="Funder"><br>
   <input type="text" name="program" placeholder="Program within funder. E.g., CAREER (optional)" aria-label="Program within funder. E.g., CAREER (optional)"><br>
-  <input type="text" name="discipline" placeholder="discipline; e.g., ecology" aria-label="discipline; e.g., ecology"><br>
-  <input type="text" name="status" placeholder="status: funded, unfunded, or unknown" aria-label="status: funded, unfunded, or unknown"><br>
-  <input type="text" name="link" placeholder="A url that links to your grant (or you can upload a pdf below)" aria-label="A url that links to your grant (or you can upload a pdf below)"><br>
-  Upload a pdf of your grant: <input type="file" name="file" aria-label="file" accept=".pdf"><br>
+  <input type="text" name="discipline" placeholder="Discipline; e.g., ecology" aria-label="Discipline; e.g., ecology"><br>
+  <input type="text" name="status" placeholder="Status: funded, unfunded, or unknown" aria-label="Status: funded, unfunded, or unknown"><br>
+  <input type="text" name="link" placeholder="A URL that links to your grant (or you can upload a PDF below)" aria-label="A URL that links to your grant (or you can upload a PDF below)"><br>
+  Upload a PDF of your grant: <input type="file" name="file" aria-label="file" accept=".pdf"><br>
   <button type="submit">Submit</button>
 </form>
+
+<script>
+(function() {
+  let authorCount = 1;
+  const maxAuthors = 10;
+
+  document.getElementById('add-author').addEventListener('click', function() {
+    if (authorCount >= maxAuthors) {
+      alert('Maximum of ' + maxAuthors + ' authors allowed.');
+      return;
+    }
+
+    const container = document.getElementById('authors-container');
+    const newEntry = document.createElement('div');
+    newEntry.className = 'author-entry';
+    newEntry.setAttribute('data-author-index', authorCount);
+    newEntry.innerHTML =
+      '<h4>Author ' + (authorCount + 1) + ' <button type="button" class="remove-author-btn">Remove</button></h4>' +
+      '<input type="text" name="authors[' + authorCount + '][name]" placeholder="Author name" aria-label="Author ' + (authorCount + 1) + ' name" required>' +
+      '<input type="text" name="authors[' + authorCount + '][institution]" placeholder="Institution" aria-label="Author ' + (authorCount + 1) + ' institution">' +
+      '<input type="text" name="authors[' + authorCount + '][orcid]" placeholder="ORCID (e.g., 0000-0001-2345-6789)" aria-label="Author ' + (authorCount + 1) + ' ORCID">' +
+      '<input type="text" name="authors[' + authorCount + '][website]" placeholder="Website (optional)" aria-label="Author ' + (authorCount + 1) + ' website">';
+    container.appendChild(newEntry);
+    authorCount++;
+    updateAuthorNumbers();
+  });
+
+  document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('remove-author-btn')) {
+      const entry = e.target.closest('.author-entry');
+      if (document.querySelectorAll('.author-entry').length > 1) {
+        entry.remove();
+        authorCount--;
+        updateAuthorNumbers();
+      } else {
+        alert('At least one author is required.');
+      }
+    }
+  });
+
+  function updateAuthorNumbers() {
+    const entries = document.querySelectorAll('.author-entry');
+    entries.forEach(function(entry, index) {
+      const h4 = entry.querySelector('h4');
+      const removeBtn = entry.querySelector('.remove-author-btn');
+      if (removeBtn) {
+        h4.innerHTML = 'Author ' + (index + 1) + ' <button type="button" class="remove-author-btn">Remove</button>';
+      } else {
+        h4.textContent = 'Author ' + (index + 1);
+      }
+
+      // Update input names and aria-labels
+      const inputs = entry.querySelectorAll('input');
+      inputs.forEach(function(input) {
+        const oldName = input.getAttribute('name');
+        if (oldName) {
+          const field = oldName.match(/\[([^\]]+)\]$/)[1];
+          input.setAttribute('name', 'authors[' + index + '][' + field + ']');
+          input.setAttribute('aria-label', 'Author ' + (index + 1) + ' ' + field);
+        }
+      });
+
+      entry.setAttribute('data-author-index', index);
+    });
+  }
+})();
+</script>

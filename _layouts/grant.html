@@ -5,11 +5,22 @@ layout: default
 <div class="grant">
     <h3 class="page-title">{{ page.title }}</h3>
   <dl>
-      <dt>Author</dt>
-      {% if page.ORCID %}
-        <dd>{{ page.author }} (<a href="https://orcid.org/{{ page.ORCID }}">ORCID</a>)</dd>
-      {% else %}
-        <dd>{{ page.author }}</dd>
+      <dt>Author{% if page.authors.size > 1 %}s{% endif %}</dt>
+      {% if page.authors %}
+        {% for author in page.authors %}
+          <dd>
+            {{ author.name }}
+            {% if author.institution %} ({{ author.institution }}){% endif %}
+            {% if author.orcid %} <a href="https://orcid.org/{{ author.orcid }}" title="ORCID: {{ author.orcid }}"><img src="/assets/orcid.svg" alt="ORCID" style="width:16px;height:16px;vertical-align:middle;"> ORCID</a>{% endif %}
+          </dd>
+        {% endfor %}
+      {% elsif page.author %}
+        {% comment %} Legacy single-author format {% endcomment %}
+        {% if page.ORCID %}
+          <dd>{{ page.author }} (<a href="https://orcid.org/{{ page.ORCID }}">ORCID</a>)</dd>
+        {% else %}
+          <dd>{{ page.author }}</dd>
+        {% endif %}
       {% endif %}
   
       <dt>Year</dt>

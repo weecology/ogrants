@@ -28,7 +28,7 @@ openly. They do this to open up research so that all stages of the process can b
   <tr>
     <td>{{ grant.year }}</td>
 	<td>{{ grant.funder }}</td>
-	<td><a href="{{ grant.url }}">{{ grant.title }}</a> <small> by {{ grant.author }}</small></td>
+	<td><a href="{{ grant.url }}">{{ grant.title }}</a> <small> by {% if grant.authors %}{{ grant.authors | map: "name" | join: ", " }}{% else %}{{ grant.author }}{% endif %}</small></td>
 	{% if grant.status contains 'unfunded' or grant.status contains 'not funded' %}
 	  <td>No</td>
 	{% elsif grant.status contains 'funded' or grant.status contains 'partially funded' %}

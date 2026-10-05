@@ -47,7 +47,7 @@ List all grants by funder
 		 <a href="{{ grant.url }}">
 		 {{ grant.title }}
 		 </a>
- 		 <small>{{ grant.author }}, {{ grant.year }}, <em>{{ grant.status }}</em></small>
+ 		 <small>{% if grant.authors %}{{ grant.authors | map: "name" | join: ", " }}{% else %}{{ grant.author }}{% endif %}, {{ grant.year }}, <em>{{ grant.status }}</em></small>
 		 </li>
 		 {% endif %}
 	 {% endfor %}
